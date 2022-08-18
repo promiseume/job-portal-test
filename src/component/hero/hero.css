@@ -12,10 +12,9 @@
   padding: 3rem 6rem;
 }
 .hero-heading h2 {
-  font-family: "Product Sans";
   font-style: normal;
-  font-weight: 700;
-  font-size: 54px;
+  font-weight: 600;
+  font-size: 50px;
   color: #000000;
   line-height: 50px;
 }
