@@ -3,7 +3,7 @@
 module.exports = [ 
     {
       id: 1,
-      image: "./assets/shaw.png",
+      image: require('./assets/shaw.png'),
       company: "Shaw Academy",
       position: "UX Designer for Product Based Company",
       responsiveRecruiter: false,
@@ -20,7 +20,7 @@ module.exports = [
     },
     {
       id: 2,
-      image: "./assets/google.png",
+      image:require("./assets/truecaller.png") ,
       company: "Truecaller",
       position: "Product Designer",
       responsiveRecruiter: false,
@@ -37,7 +37,7 @@ module.exports = [
     },
     {
       id: 3,
-      image: "./assets/truecaller.png",
+      image:require("./assets/google.png"),
       company: "Google India",
       position: "Product Lead",
       responsiveRecruiter: true,
@@ -54,7 +54,7 @@ module.exports = [
     },
     {
       id: 4,
-      image: "./assets/vmware.png",
+      image: require("./assets/vmware.png"),
       company: "VMWare",
       position: "UX Designer for Product Based Company",
       responsiveRecruiter: true,
@@ -71,7 +71,7 @@ module.exports = [
     },
     {
       id: 5,
-      image: './assets/wwurfel.png',
+      image: require('./assets/wwurfel.png'),
       company: "Wurfel Kuche Pvt. Ltd",
       position: "Product Designer",
       responsiveRecruiter: false,
