@@ -1,0 +1,131 @@
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.card-content{
+    display: flex;
+    align-content: center;
+}
+.job-cards{
+    width: 100%;
+    background-color: #ffff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.card-content img{
+    width: 80px;
+    height: 70px;
+}
+.job-cards p{
+    color: #999999;
+    font-size: 16px;
+    margin: 0;
+}
+.card-header{
+    padding-left: 10px;
+}
+.card-recruiting{
+    color: #ffff;
+    font-size: 10px;
+    background-color: #b34a42;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 3px 7px;
+}
+.card-save{
+    color: #3c6dc2;
+    padding: 10px 30px 10px 30px;
+    border:2px solid #3c6dc2;
+    background-color: #ffff;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.card-save:hover{
+    background-color:#3c6dc2;
+    color: #ffff;
+}
+.card-apply{
+    color: #ffff;
+    padding: 12px 30px 12px 30px;
+    background-color: #3c6dc2;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.card-apply:hover{
+    background-color:#ffff;
+    color: #3c6dc2;
+    border:2px solid #3c6dc2;
+}
+.job-cards ul{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    padding: 12px;
+}
+.job-cards h2{
+    color:#071833;
+}
+.job-cards h5{
+    color:#071833 ;
+}
+.icon-content{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-right: 15px!important;
+    align-items: center;
+}
+.card-header h3{
+    color:#24245c;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+}
+.card-header h5{
+    color:#7e7ebd;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px; 
+}
+.job-require{
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+}
+.recruit-speed{
+    display: flex;
+    align-items: center;
+}
+.respon-recruiting{
+    color: #ffff;
+    font-size: 10px;
+    background-color: #63a667;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 3px 7px;
+    margin-right: 5px;
+}
+@media(max-width:990px){
+    .card-container{
+        display: grid;
+    } 
+    .job-require{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 20px;
+    }
+}

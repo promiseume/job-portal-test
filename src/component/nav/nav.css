@@ -1,0 +1,33 @@
+.nav-header a{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000AFF!important;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem 0.2rem 3rem;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-content a{
+    padding-right: 15px;
+    font-family: 'DM Sans';
+    font-style: normal;
+     font-weight: 700;
+    font-size: 18px;
+    color: #8A8A8A;
+}
+@media(max-width:990px){
+    .nav{
+        padding: 0.2rem;
+    } 
+}

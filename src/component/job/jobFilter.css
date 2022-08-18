@@ -1,0 +1,63 @@
+.filter-sec .ant-checkbox-group {
+    display: grid;
+    grid-template-columns: 5px;
+}
+.filter-sec .ant-checkbox-wrapper + .ant-checkbox-wrapper {
+    margin-left: 0;
+}
+.filter-sec{
+    background-color: #fff;
+    padding: 10px;
+}
+.filter-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sort-by{
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+.ant-checkbox-wrapper + .ant-checkbox-wrapper {
+    margin-left: 20px;
+}
+.sort-by .ant-checkbox-inner {
+border-radius: 20px!important;
+}
+.sort-by h3{
+    color:#999999;
+}
+.filter-sec h3{
+    color:#999999;
+}
+.filter-sec p{
+    color:#999999;
+}
+.ant-checkbox + span{
+    color:#999999;
+}
+.filter-list{
+    margin-bottom: 18px;
+}
+.min-max-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.min-max-btn button{
+    background-color:#ededed;
+    padding: 9px;
+    border: none;
+   border-radius: 7px;
+}
+.ant-slider-track {
+    background-color:#3c6dc2 ;
+}
+.ant-slider-handle {
+    background-color: #3c6dc2 ;
+    border: solid 2px #3c6dc2 ;
+    width: 10px;
+    height: 10px;
+    margin-top: -3px;
+}

@@ -1,0 +1,141 @@
+.hero-img {
+  width: 500px;
+  height: 600px;
+}
+.hero-img img {
+  object-fit: contain;
+  width: 500px;
+}
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 6rem;
+}
+.hero-heading h2 {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  color: #000000;
+  line-height: 50px;
+}
+.hero-heading p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #787878;
+}
+.search-jobs {
+  background-color: #ffff;
+  box-shadow: 0 0 .01px #555;
+  padding: 10px;
+  border-radius: 5px;
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+}
+.search-job{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 2px 4px 17.21px #787878;
+    margin-top: 30px;
+    border-radius: 10px;
+    width:115%;
+}
+.search-form{
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.search-opt{
+    width: 75%;
+    border: 2px solid #cccccc;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.search-opt .input-button{
+    width:80%;
+}
+.search-opt input{
+    padding: 7px;
+    outline: none;
+    border: none;
+    border-right: none;
+}
+
+.search-btn{
+    width: 20%;
+    border:none;
+}
+.search-btn button{
+    border: none;
+    width: 100%;
+    padding: 7px 0px;
+    background: #000AFF;
+    color: #ffff;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+.select-form .css-1s2u09g-control{
+    border-radius: 0!important;
+    border-bottom: none;
+    border-left:2px solid #cccccc;
+    border-right: none;
+    border-top: none;
+}
+.select-form .css-319lph-ValueContainer{
+    padding:2px 14px;
+}
+@media(max-width:990px){
+    .hero-img {
+        display: none;
+    }
+      .search-jobs {
+        box-shadow:none;
+        padding: 10px;
+      }
+      .search-job{
+        width: 100% !important;
+    }
+    .search-form{
+        width: 100%;
+        border: 1px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    
+    }
+    .search-opt{
+        width: 75%;
+        border: 2px solid #cccccc;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .search-opt .input-button{
+        width:70%;
+    }
+    .hero-img img {
+       display: none;
+      }
+      .hero-section {
+        padding: 0.4rem;
+      }
+      .hero-heading h2 {
+        font-size: 50px;
+        margin-top: 10px;
+      }
+      .select-form .css-319lph-ValueContainer{
+        padding:2px;
+    }
+}
